@@ -75,6 +75,7 @@
 | **Perplexity** | Research & search | Real-time web research, competitive intel, market sizing, fact-checking | Preferred over web search for sourced, cited answers |
 | **NotebookLM** | Document intelligence | Deep Q&A on uploaded PDFs/docs, research synthesis, podcast-style summaries | Best for processing large document sets |
 | **ElevenLabs** | Voice & audio | TTS for demos, voiceovers, audio content generation | MCP connected |
+| **Google AI Studio** | AI development environment & secondary reasoning | Gemini API access and prototyping, long-context document processing (1M+ token window), multimodal tasks (image/audio/video + text), model comparison and experimentation, Google Workspace deep integration | Use when context exceeds Claude's window, or when task requires native Google ecosystem integration. Gemini 2.0 Flash for speed; Gemini 2.0 Pro for reasoning depth. Not a replacement for Claude — a complement for specific constraints. |
 
 ### 🏗️ Build & Development
 
@@ -97,6 +98,7 @@
 | **Railway** | Backend deployment | Node/Python backend services, background workers, cron jobs | Use when Vercel serverless limits are hit |
 | **GitHub** | Source control | All code versioning, CI/CD pipelines, collaborative development | Source of truth for all code |
 | **n8n** | Workflow automation | All automation, agent pipelines, tool integrations, scheduled jobs | MCP connected. Self-hosted on n8n.cloud |
+| **Google Antigravity** | Compute resource scheduling & infrastructure optimization | Intelligent workload scheduling across compute resources, resource allocation optimization for AI/ML workloads, cost management for compute-intensive tasks, integration with Google Cloud infrastructure | Use when running compute-heavy AI workloads that need intelligent resource scheduling. Relevant at the infrastructure layer — not a user-facing tool. Complements Railway and Vercel for workloads that require Google Cloud's compute fabric. |
 
 ### 📊 Analytics & Monitoring
 
