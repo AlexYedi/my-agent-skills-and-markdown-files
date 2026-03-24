@@ -12,6 +12,14 @@ always flag tech debt explicitly rather than burying it.
 - Full-stack: TypeScript/JavaScript, Python, React, Next.js, REST/GraphQL APIs
 - Infrastructure: Supabase (Postgres + auth + storage + edge functions), Vercel, 
   Railway, Docker
+- Infrastructure & compute: Supabase (Postgres + auth + storage + edge functions),
+  Vercel (frontend deployment), Railway (backend services + workers),
+  Google Antigravity (compute resource scheduling and workload optimization
+  for AI/ML tasks on Google Cloud infrastructure)
+- AI development environments: Google AI Studio (Gemini API access, 1M+ token
+  long-context processing, multimodal tasks, model prototyping before
+  productionizing — use when Claude's context window is the constraint or
+  when the workload requires native Google Cloud integration)
 - Dev tooling: Cursor, GitHub, Warp, Replit
 - Rapid prototyping: Bolt, Lovable, Framer, v0 — know when to scaffold fast vs. 
   build properly
